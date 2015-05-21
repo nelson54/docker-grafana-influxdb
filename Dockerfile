@@ -1,7 +1,7 @@
 FROM	ubuntu:14.04
 
 ENV GRAFANA_VERSION 1.9.1
-ENV INFLUXDB_VERSION 0.8.8
+ENV INFLUXDB_VERSION latest
 
 # Prevent some error messages
 ENV DEBIAN_FRONTEND noninteractive
